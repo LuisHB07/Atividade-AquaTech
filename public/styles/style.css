@@ -1,0 +1,137 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    background-color: black;
+    border-bottom: 3px solid aqua;
+}
+
+.header .container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 15px;
+}
+
+.titulo {
+    color: aqua;
+}
+
+.navbar {
+    display: flex; 
+    list-style: none;
+    gap: 15px;
+    color: goldenrod;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: goldenrod; 
+}
+
+.navbar .agora {
+    font-weight: bold; 
+}
+
+.banner {
+    height: 500px;
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+    background-position: center;
+}
+
+.banner .container {
+    display: flex;
+    height: 100%; 
+    align-items: center;
+    color: white;
+    font-size: 36px;
+    width: 300px;
+}
+
+.banner span {
+    font-weight: bold;
+}
+
+.social {
+    padding: 40px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.box {
+    width: 30%;
+}
+
+.box img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.box h4 {
+    color: palevioletred;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color:aqua;
+    color: white;
+}
+
+.footer .container {
+    padding: 20px;
+    text-align: center;
+}
+
+.login {
+    background-image: url("../assets/imgs/bg-jelly-fish-para_outras_pags.png");
+    background-size: cover;
+    height: 400px;
+    padding: 100px;
+}
+
+.card {
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center; 
+}
+
+.card h2 {
+    color: palevioletred;
+}
+
+.campo {
+    text-align: left;
+    color: palevioletred;
+    font-weight: bold;
+}
+
+.campo input {
+    width: 90%; 
+    padding: 10px;
+    border: 1px solid aqua;
+    border-radius: 5px;
+}
+
+.botao {
+    width: 20%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: deeppink; 
+    color: white; 
+}
